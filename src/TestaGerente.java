@@ -14,8 +14,8 @@ public class TestaGerente {
 		
 		bancoJhully.setFuncionario(jhully);
 		bancoJhully.getFuncionario().setSalario(1000);
-		System.out.println("FUNCIONARIO " + jhully.getNome() + " Sem bonificação: " + bancoJhully.getFuncionario().getSalario());		
-		System.out.println("FUNCIONARIO " + jhully.getNome() + " Com bonificação: " + bancoJhully.getFuncionario().getbonificacao());		
+		System.out.println("FUNCIONARIA " + jhully.getNome() + " Sem bonificação: " + bancoJhully.getFuncionario().getSalario());		
+		System.out.println("FUNCIONARIA " + jhully.getNome() + " Com bonificação: " + bancoJhully.getFuncionario().getbonificacao());		
 
 		/*silva.setSenha(2929);
 		boolean autenticou = silva.autentica(2929);
